@@ -5,8 +5,6 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 
 class MySeleniumTests(StaticLiveServerTestCase):
-    # fixtures = ['testdb.json']  # Descomenta si tienes un archivo de fixtures para datos iniciales.
-
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
